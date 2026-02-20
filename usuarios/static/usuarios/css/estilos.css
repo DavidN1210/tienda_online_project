@@ -1,0 +1,24 @@
+/* Contacto */
+
+#body-contacto {
+    background-image: url('../img/fondo_contacto.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.contact-card {
+    border-top: 5px solid #0d6efd;
+}
+
+/* Carrito */
+#body-carrito {
+    background-image: url('../img/fondo_carrito.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

@@ -1,0 +1,10 @@
+/* Crear producto */
+
+#body-crear-producto {
+    background-image: url('../img/fondo_crear_producto.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
