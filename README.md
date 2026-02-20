@@ -14,7 +14,21 @@ Si el usuario está autenticado:
 * Además de lo que podias hacer cuando no habías iniciado sesión (ver los detalles del producto...), ahora puedes eliminar y crear tus propios productos.
 * Se añade un carrito en el que se registrarán los pedidos de cada usuario. Dentro del carrito puedes ver y eliminar tus pedidos.
 
-
+## Guía de ejecución del proyecto
+### 1. Preparar el entorno virtual
+``` bash
+python -m venv entorno_django
+source entorno_django/bin/activate  # En Windows: venv\Scripts\activate
+```
+### 2. Instalar dependencias
+``` bash
+pip install django
+```
+### 3. Iniciar el servidor
+Iniciar el servidor dentro de la carpeta del proyecto con el entorno activado
+``` bash
+python manage.py runserver
+```
 ## Tecnologías utilizadas
 * Backend: Django
 * Base de datos: SQLite 
